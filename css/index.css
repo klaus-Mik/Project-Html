@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+#top{
+    background-image: url('../images/pexels-chanwalrus-958545.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#bg{
+    background-color: rgba(0,0,0,0.3);
+}
+nav ul{
+    margin-left: 40px;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+
+}
+nav li{
+    list-style-type: none;
+    border: 1px solid white;
+    padding: 5px;
+    background: rgba(0,0,0,0.4);
+    border-radius: 4px;
+}
+#logo{
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 8px;
+    background: rgba(0,0,0,0.4);
+}
